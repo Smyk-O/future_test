@@ -1,0 +1,156 @@
+.footer {
+    width: 100%;
+    height: 642px;
+    position: relative;
+
+    .newsletter {
+        height:345px;
+        background: url(./content/Bg_newsletter.png) 95% no-repeat;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+        position: relative;
+
+        h1 {
+            color: #ffffff;
+            font-family: "Open Sans";
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 26px;
+
+            position: absolute;
+            top: 105px;
+        }
+
+        .subscription {
+            width: 847px*0.7;
+            height: 71px*0.7;
+            background: #fff;
+            border-radius: 50px;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 3px;
+
+            font-family: "Open Sans";
+            font-size: 20px;
+            line-height: 26px;
+
+            position: absolute;
+            bottom: 124px*0.7;
+
+            * {
+                outline: none;
+            }
+
+            .subscriptionEmail{
+                width: 100%;
+                height: 100%;
+                background: none;
+                border: none;
+                font-weight: 400;
+                color: #333333;
+                font-size: 20px*0.7;
+                font-weight: 400;
+                margin-left: 20px;
+            }
+
+            .subscriptionBtn{
+                background-image: linear-gradient(#8c84f9 0%, #9c6cf5 100%);
+                border: none;
+                border-radius: 50px;
+                width: 198px*0.7;
+                height: 50px;
+                color: #fff;
+                font-weight: 600;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .info{
+
+
+        height: 290px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h2{
+            margin-top: 40px;
+            font-family: Roboto;
+            font-size: 28px;
+            font-weight: 500
+        }
+
+        .catalogue{
+            width: 490px;
+            color: #404040;
+            font-family: "Open Sans";
+            font-size: 18px;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+
+            a{
+                text-decoration: none;
+                &:visited {
+                    color: #404040;
+                }
+            }
+        }
+
+        .social {
+            margin-top: 40px;
+            width: 330px*0.7;
+            display: flex;
+            justify-content: space-between;
+            
+
+            a {
+                width: 37px;
+                height: 37px;
+                border: 2px solid #ecebed;
+                border-radius: 50px;
+                color: #404040;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                    .svg-inline--fa {
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                &:hover {
+                    box-shadow: -2px 8px 19px 1px rgba(207, 207, 208, 0.75);
+                    background-image: linear-gradient(27deg, #8c84f9 0%, #9b6df5 99%, #9b6df5 100%);
+                    color: #fff;
+                }
+            }
+
+        }
+
+        .copyright {
+            position: absolute;
+            bottom: 0px;
+
+            width: 100%;
+            height: 45px;
+            background-color: #f6f5f7;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+
+            color: #777777;
+            font-family: Montserrat;
+            font-size: 15px;
+            font-weight: 300;
+        }
+    }
+}

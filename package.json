@@ -2,7 +2,7 @@
   "name": "future_test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://smyk-o.github.io/future_tes/",
+  "homepage": "https://smyk-o.github.io/future_test/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
     "@fortawesome/free-brands-svg-icons": "^5.5.0",
